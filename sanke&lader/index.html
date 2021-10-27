@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake and ladder</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="index.js" async></script>
+</head>
+<body>
+    
+    <div class="grid">
+        <div>
+            <span>Grid</span>
+            <input type="number" id="gridSize"/>
+        </div>
+        <div>
+            <span>Player</span>
+            <input type="number" id="noOfPlayers"/>
+        </div>
+    </div>
+
+    <div class="start">
+        <button id="start">Start</button>
+    </div>
+
+    <div id="table">
+        <table >
+            <thead>
+                <tr>
+                <th>PLayer</th>
+                <th>dice roll history</th>
+                <th>Position history</th>
+                <th>Win Status</th>
+                </tr>
+            </thead>
+            <tbody id="mytable">
+                <!-- <td>1</td>
+                <td>1,2,3</td>
+                <td>1</td>
+                <td>mee</td> -->
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
